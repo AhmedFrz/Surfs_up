@@ -17,4 +17,4 @@ Therefore we will use Pandas, SQlite and Python.
 ### Average Temperature
 
 
-Summary: 
+### Summary: 
