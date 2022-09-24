@@ -18,3 +18,4 @@ Therefore we will use Pandas, SQlite and Python.
 
 
 ### Summary: 
+Include 2 queries at the end 
