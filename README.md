@@ -10,12 +10,19 @@ Therefore we will use Pandas, SQlite and Python.
 ## Results: 
 
 ### June Temperature
+![](Images/june_temp_df.png)
 
 
 ### December Temperature
+![](Images/dec_temp_df.png)
 
-### Average Temperature
 
 
 ### Summary: 
 Include 2 queries at the end 
+
+Calculate and print out the summary statistics for the Decemeber temperature DataFrame.
+session.query(func.count(Station.station)).all()
+
+dec_prep =  session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6 ).all()
+print(dec_prep)
