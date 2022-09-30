@@ -19,8 +19,6 @@ Therefore we will use Pandas, SQlite and Python.
 
 
 ### Summary: 
-Include 2 queries at the end 
-
 Calculate and print out the summary statistics for the Decemeber temperature DataFrame.
 session.query(func.count(Station.station)).all()
 
